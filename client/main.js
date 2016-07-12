@@ -3,11 +3,12 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav from './components/nav';
 
 const App = () => {
     return(
         <div>
-            Nav
+            <Nav />
             Banner
             Container
             Footer
