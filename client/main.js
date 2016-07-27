@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import Nav from './components/nav';
 import Banner from './components/banner';
 import Container from './components/container';
+import Footer from './components/footer';
 
 const App = () => {
     return(
@@ -14,7 +15,7 @@ const App = () => {
             <Nav />
             <Banner />
             <Container />
-            Footer
+            <Footer />
         </div>
     );
 };
