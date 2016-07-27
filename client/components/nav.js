@@ -1,8 +1,9 @@
 /**
- * Created by Scott on 7/11/2016.
+ * Created by Scott on 7/26/2016.
  */
 import React from 'react';
 
+//Nav component
 const Nav = () => {
     return (
         <nav className="navbar navbar-default navbar-fixed-top">

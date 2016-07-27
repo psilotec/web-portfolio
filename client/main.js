@@ -3,20 +3,21 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import Nav from './components/nav';
+import Banner from './components/banner';
 
 const App = () => {
     return(
         <div>
             <Nav />
-            Banner
+            <Banner />
             Container
             Footer
         </div>
-
     );
 };
 
 Meteor.startup(() => {
-    ReactDOM.render(<App />, document.querySelector('.container'))
+    ReactDOM.render(<App />, document.querySelector('.render-target'))
 });
