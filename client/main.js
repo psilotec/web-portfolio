@@ -6,13 +6,14 @@ import ReactDOM from 'react-dom';
 
 import Nav from './components/nav';
 import Banner from './components/banner';
+import Container from './components/container';
 
 const App = () => {
     return(
         <div>
             <Nav />
             <Banner />
-            Container
+            <Container />
             Footer
         </div>
     );
