@@ -5,8 +5,9 @@ import React from 'react';
 
 const Container = () => {
     return (
-        <div>
-            Container
+        <div className="container">
+            <h1>Welcome!</h1>
+            <p>Thanks for taking a look at my work.</p>
         </div>
     );
 };
