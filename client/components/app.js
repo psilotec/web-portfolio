@@ -1,9 +1,12 @@
 /**
  * Created by Scott on 8/3/2016.
  */
-import Nav from './components/nav';
-import Banner from './components/banner';
-import Container from './components/container';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Nav from './nav';
+import Banner from './banner';
+import Container from './container';
 
 export default App = () => {
     return(
