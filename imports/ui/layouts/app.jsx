@@ -5,17 +5,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //Component imports
-import Nav from './nav';
-import Banner from './banner';
-import Container from './container';
+import { Nav } from '../components/nav.jsx';
+import { Banner } from '../components/banner.jsx';
 
 //Main App component
-export default App = () => {
+const App = ( { children } ) => {
     return(
         <div>
             <Nav />
             <Banner />
-            <Container />
+            { children }
         </div>
     );
 };
+
+export default App;
