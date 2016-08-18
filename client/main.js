@@ -4,6 +4,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Imported for Routing
+import './main.html';
+import '/imports/startup/client';
+
 import App from './components/app';
 
 Meteor.startup(() => {
