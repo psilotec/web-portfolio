@@ -14,8 +14,6 @@ import { About } from '../../ui/pages/about.jsx';
 import { Resume } from '../../ui/pages/resume.jsx';
 import { Contact } from '../../ui/pages/contact.jsx';
 
-
-
 Meteor.startup( () => {
     render(
         <Router history={ browserHistory }>

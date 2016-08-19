@@ -9,7 +9,7 @@ import { Nav } from '../components/nav.jsx';
 import { Banner } from '../components/banner.jsx';
 
 //Main App component
-const App = ( { children } ) => {
+export const App = ( { children } ) => {
     return(
         <div>
             <Nav />
@@ -18,5 +18,3 @@ const App = ( { children } ) => {
         </div>
     );
 };
-
-export default App;
