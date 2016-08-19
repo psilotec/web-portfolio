@@ -1,8 +1,13 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
 img {
     max-width: 100vw;
 }
 
-.container {
+.about {
     text-align: center;
-    padding: 70px 0;
+    padding: 5vw 0;
 }
+

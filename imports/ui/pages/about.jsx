@@ -3,4 +3,13 @@
  */
 import React from 'react';
 
-export const About = () => <h3>About</h3>;
+export const About = ( ) => {
+    return(
+        <div className="about">
+            <h1>Welcome!</h1>
+            <p>Thanks for visiting.</p>
+            <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+    );
+};
+

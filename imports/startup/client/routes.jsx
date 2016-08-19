@@ -7,7 +7,6 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 //Component imports
 import { App } from '../../ui/layouts/app.jsx';
-import { Index } from '../../ui/components/index.jsx';
 
 //Page component imports
 import { About } from '../../ui/pages/about.jsx';
