@@ -5,11 +5,11 @@ import React from 'react';
 
 export const Resume = ( ) => {
     return(
-        <div>
+        <div className="resume">
             <ul className="nav nav-pills">
-                <li role="presentation" className="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">Profile</a></li>
-                <li role="presentation"><a href="#">Messages</a></li>
+                <li role="presentation" className="active"><a href="#">Skills</a></li>
+                <li role="presentation"><a href="#">Employment</a></li>
+                <li role="presentation"><a href="#">Education</a></li>
             </ul>
         </div>
     );
