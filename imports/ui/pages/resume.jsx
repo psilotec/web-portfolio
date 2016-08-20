@@ -7,18 +7,12 @@ import React from 'react';
 import { Skills } from '../components/Skills';
 import { Experience } from '../components/Experience';
 import { Education } from '../components/Education';
+import { ResumeFilter } from '../components/ResumeFilter';
 
 export const Resume = ( ) => {
     return(
         <div className="resume">
-            <div className="filters">
-                <ul className="nav nav-pills">
-                    <li role="presentation" className="active"><a href="#">Full Resume</a></li>
-                    <li role="presentation"><a href="#">Skills</a></li>
-                    <li role="presentation"><a href="#">Experience</a></li>
-                    <li role="presentation"><a href="#">Education</a></li>
-                </ul>
-            </div>
+            <ResumeFilter />
 
             <Skills />
 
