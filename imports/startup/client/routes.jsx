@@ -9,9 +9,9 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { App } from '../../ui/layouts/app.jsx';
 
 //Page component imports
-import { About } from '../../ui/pages/about.jsx';
-import { Resume } from '../../ui/pages/resume.jsx';
-import { Contact } from '../../ui/pages/contact.jsx';
+import { About } from '../../ui/pages/About.jsx';
+import { Resume } from '../../ui/pages/Resume.jsx';
+import { Contact } from '../../ui/pages/Contact.jsx';
 
 Meteor.startup( () => {
     render(

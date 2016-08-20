@@ -5,8 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //Component imports
-import { Nav } from '../components/nav.jsx';
-import { Banner } from '../components/banner.jsx';
+import { Nav } from '../components/Nav.jsx';
+import { Banner } from '../components/Banner.jsx';
 
 //Main App component
 export const App = ( { children } ) => {

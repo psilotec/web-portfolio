@@ -4,9 +4,9 @@
 import React from 'react';
 
 //Component imports
-import { Skills } from '../components/skills';
-import { Experience } from '../components/experience';
-import { Education } from '../components/education';
+import { Skills } from '../components/Skills';
+import { Experience } from '../components/Experience';
+import { Education } from '../components/Education';
 
 export const Resume = ( ) => {
     return(
