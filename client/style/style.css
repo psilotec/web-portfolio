@@ -6,14 +6,58 @@ img {
     max-width: 100vw;
 }
 
+a {
+    color: #515151;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a.btn-primary {
+    color: #fff;
+    background-color: #3d8b40;
+    border-color: #3d8b40;
+}
+
+a.btn-primary:active {
+    color: #fff;
+    background-color: #3d8b40;
+    border-color: #3d8b40;
+}
+
+a.btn-primary:hover {
+    color: #fff;
+    background-color: #3d8b40;
+    border-color: #3d8b40;
+}
+
+a.btn-primary:focus {
+    color: #fff;
+    background-color: #3d8b40;
+    border-color: #3d8b40;
+}
+
+/* About component */
 .about {
     text-align: center;
     padding: 5vh 0;
 }
 
+/* Resume flexbox */
 .resume {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2vh 0;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
