@@ -3,6 +3,11 @@
  */
 import React from 'react';
 
+//Component imports
+import { Skills } from '../components/skills';
+import { Experience } from '../components/experience';
+import { Education } from '../components/education';
+
 export const Resume = ( ) => {
     return(
         <div className="resume">
@@ -10,81 +15,16 @@ export const Resume = ( ) => {
                 <ul className="nav nav-pills">
                     <li role="presentation" className="active"><a href="#">Full Resume</a></li>
                     <li role="presentation"><a href="#">Skills</a></li>
-                    <li role="presentation"><a href="#">Professional Experience</a></li>
+                    <li role="presentation"><a href="#">Experience</a></li>
                     <li role="presentation"><a href="#">Education</a></li>
                 </ul>
             </div>
 
-            <div className="skills jumbotron">
-                <table className="table">
-                    <thead>
-                        <tr>
-                            <th>Skills</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td>
-                                JavaScript (ES6)
-                            </td>
-                            <td>
-                                React JS
-                            </td>
-                            <td>
-                                HTML 5
-                            </td>
-                        </tr>
+            <Skills />
 
-                        <tr>
-                            <td></td>
-                            <td>
-                                CSS3/SCSS/Bootstrap
-                            </td>
-                            <td>
-                                Meteor JS
-                            </td>
-                            <td>
-                                Git/GitHub
-                            </td>
-                        </tr>
+            <Experience />
 
-                        <tr>
-                            <td></td>
-                            <td>
-                                NPM
-                            </td>
-                            <td>
-                                SQL/NoSQL/GraphQL
-                            </td>
-                            <td>
-                                Agile Development
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td></td>
-                            <td>
-                                Testing solutions
-                            </td>
-                            <td>
-                                Java
-                            </td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div className="profexp jumbotron">
-                Professional Experience
-            </div>
-
-            <div className="education jumbotron">
-                Education
-            </div>
+            <Education />
         </div>
     );
 };
