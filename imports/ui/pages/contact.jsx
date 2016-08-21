@@ -3,4 +3,12 @@
  */
 import React from 'react';
 
-export const Contact = () => <h3>Contact</h3>;
+export const Contact = ( ) => {
+    return(
+        <div className="contact">
+            <h2>Contact</h2>
+            <p>Email: scottadevito@gmail.com</p>
+            <p>Linkedin: Scott DeVito</p>
+        </div>
+    );
+};
