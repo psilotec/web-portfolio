@@ -14,7 +14,7 @@ class Resume extends Component {
         super(props);
 
         this.state = {
-            visibleComponent: "Full Resume"
+            visibleComponent: "full"
         };
         this.toggleResumeFilter = this.toggleResumeFilter.bind(this);
     }
@@ -29,7 +29,7 @@ class Resume extends Component {
     render() {
         console.log(this.state.visibleComponent);
         return(
-            <div className="resume">
+            <div className="resume" style={{this.props.visible ? ‘block’ : ‘none’}}>
                 <div className="filters">
                     <ul className="nav nav-pills">
                         <li role="presentation"><a href="#full" onClick={this.toggleResumeFilter}>Full Resume</a></li>
@@ -39,13 +39,9 @@ class Resume extends Component {
                     </ul>
                 </div>
 
-                { this.state.visibleComponent === "Skills" ? <Skills /> : '' }
-
-                { this.state.visibleComponent === "Experience" ? <Experience /> : '' }
-
-                { this.state.visibleComponent === "Education" ? <Education /> : '' }
-
-                { this.state.visibleComponent === "Full Resume" ? <Skills /> && <Experience /> && <Education /> : '' }
+            <Skills visible={{this.state.visibleComponent === ("skills" || "full") ? true : false}} />
+            <Experience visible={{this.state.visibleComponent === ("experience" || "full") ? true : false}} />
+            <Education visible={{this.state.visibleComponent === ("education" || "full") ? true : false}} />
 
             </div>
         );
