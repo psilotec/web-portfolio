@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="" />
+    <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/pages/resume.jsx" afterPath="$PROJECT_DIR$/imports/ui/pages/resume.jsx" />
+    </list>
     <ignored path="web-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +63,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resume.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Resume.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/ui/pages/Resume.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.48703957">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Experience.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Experience.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/components/Experience.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06957708">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
@@ -115,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/imports/ui/components/Education.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,7 +162,6 @@
         <option value="$PROJECT_DIR$/imports/ui/components/nav.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/skills.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/experience.jsx" />
-        <option value="$PROJECT_DIR$/imports/ui/pages/resume.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/education.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/ResumeFilter.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/pages/Contact.jsx" />
@@ -168,6 +171,7 @@
         <option value="$PROJECT_DIR$/imports/ui/components/Skills.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/Education.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/Experience.jsx" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/resume.jsx" />
       </list>
     </option>
   </component>
@@ -730,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/pages/Resume.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/components/Skills.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -746,19 +742,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/Education.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/Experience.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/Experience.jsx">
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/Education.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06957708">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/Resume.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48703957">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
