@@ -3,9 +3,9 @@
  */
 import React from 'react';
 
-export const Skills = ( ) => {
+export const Skills = (props) => {
     return(
-        <div>
+        <div style={props.visible ? {display: 'block'} : {display: 'none'}}>
             <h3 className="skills header">Skills</h3>
             <div className="jumbotron">
                 <table className="table">

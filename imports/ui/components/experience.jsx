@@ -3,9 +3,9 @@
  */
 import React from 'react';
 
-export const Experience = ( ) => {
+export const Experience = (props) => {
     return(
-        <div>
+        <div style={props.visible ? {display: 'block'} : {display: 'none'}}>
             <h3 className="experience header">Experience</h3>
             <div className="experience panel panel-default">
                 <div className="panel-heading">

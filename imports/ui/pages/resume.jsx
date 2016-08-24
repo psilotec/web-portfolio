@@ -14,13 +14,13 @@ class Resume extends Component {
         super(props);
 
         this.state = {
-            visibleComponent: "Full Resume"
+            visibleComponent: "education"
         };
         this.toggleResumeFilter = this.toggleResumeFilter.bind(this);
     }
 
     //Event Handler for resume filter
-    toggleResumeFilter() {
+    toggleResumeFilter(event) {
         this.setState({
             visibleComponent: this.href
         });
@@ -39,13 +39,9 @@ class Resume extends Component {
                     </ul>
                 </div>
 
-                { this.state.visibleComponent === "Skills" ? <Skills /> : '' }
-
-                { this.state.visibleComponent === "Experience" ? <Experience /> : '' }
-
-                { this.state.visibleComponent === "Education" ? <Education /> : '' }
-
-                { this.state.visibleComponent === "Full Resume" ? <Skills /> && <Experience /> && <Education /> : '' }
+                <Skills visible={this.state.visibleComponent === ("skills" || "full") ? true : false} />
+                <Experience visible={this.state.visibleComponent === ("experience" || "full") ? true : false} />
+                <Education visible={this.state.visibleComponent === ("education" || "full") ? true : false} />
 
             </div>
         );

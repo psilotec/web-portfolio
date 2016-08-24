@@ -3,9 +3,9 @@
  */
 import React from 'react';
 
-export const Education = ( ) => {
+export const Education = (props) => {
     return(
-        <div>
+        <div style={props.visible ? {display: 'block'} : {display: 'none'}}>
             <h3 className="education header">Education</h3>
             <div className="education panel panel-default">
                 <div className="panel-heading">
