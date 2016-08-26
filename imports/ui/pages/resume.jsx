@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 //Component imports
+import { Full } from '../components/Full';
 import { Skills } from '../components/Skills';
 import { Experience } from '../components/Experience';
 import { Education } from '../components/Education';
@@ -13,35 +14,44 @@ class Resume extends Component {
     constructor(props) {
         super(props);
 
+        //State to keep track of which child component(s) to display
         this.state = {
-            visibleComponent: "education"
+            visibleComponent: "full"
         };
-        this.toggleResumeFilter = this.toggleResumeFilter.bind(this);
     }
 
     //Event Handler for resume filter
-    toggleResumeFilter(event) {
+    toggleResumeFilter(id, event) {
         this.setState({
-            visibleComponent: this.href
+            visibleComponent: id
         });
-        console.log(this.name);
+        //debug
+        console.log(id);
     }
     render() {
-        console.log(this.state.visibleComponent);
         return(
             <div className="resume">
                 <div className="filters">
-                    <ul className="nav nav-pills">
-                        <li role="presentation"><a href="#full" onClick={this.toggleResumeFilter}>Full Resume</a></li>
-                        <li role="presentation"><a href="#skills" onClick={this.toggleResumeFilter}>Skills</a></li>
-                        <li role="presentation"><a href="#experience" onClick={this.toggleResumeFilter}>Experience</a></li>
-                        <li role="presentation"><a href="#education" onClick={this.toggleResumeFilter}>Education</a></li>
-                    </ul>
+                    <div className="btn-group btn-group-justified" role="group" aria-label="...">
+                        <div className="btn-group" role="group">
+                            <button type="button" className="btn btn-default" onClick={this.toggleResumeFilter.bind(this, "full")}>Full Resume</button>
+                        </div>
+                        <div className="btn-group" role="group">
+                            <button type="button" className="btn btn-default" onClick={this.toggleResumeFilter.bind(this, "skills")}>Skills</button>
+                        </div>
+                        <div className="btn-group" role="group">
+                            <button type="button" className="btn btn-default" onClick={this.toggleResumeFilter.bind(this, "experience")}>Experience</button>
+                        </div>
+                        <div className="btn-group" role="group">
+                            <button type="button" className="btn btn-default" onClick={this.toggleResumeFilter.bind(this, "education")}>Education</button>
+                        </div>
+                    </div>
                 </div>
 
-                <Skills visible={this.state.visibleComponent === ("skills" || "full") ? true : false} />
-                <Experience visible={this.state.visibleComponent === ("experience" || "full") ? true : false} />
-                <Education visible={this.state.visibleComponent === ("education" || "full") ? true : false} />
+                <Full visible={this.state.visibleComponent === "full"} />
+                <Skills visible={this.state.visibleComponent === "skills"} />
+                <Experience visible={this.state.visibleComponent === "experience"} />
+                <Education visible={(this.state.visibleComponent === "education")} />
 
             </div>
         );

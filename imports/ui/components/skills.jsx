@@ -31,7 +31,7 @@ export const Skills = (props) => {
 
                     <tr>
                         <td>
-                            CSS3/SCSS/Bootstrap
+                            CSS3/SCSS
                         </td>
                         <td>
                             Meteor JS
