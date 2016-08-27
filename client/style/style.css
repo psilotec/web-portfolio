@@ -64,6 +64,7 @@ a.btn-primary:focus {
 
 .skills-width {
     text-align: center;
+    width: 55vw;
 }
 
 .skills.header {

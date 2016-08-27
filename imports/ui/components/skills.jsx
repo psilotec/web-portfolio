@@ -7,7 +7,7 @@ export const Skills = (props) => {
     return(
         <div style={props.visible ? {display: 'block'} : {display: 'none'}}>
             <h3 className="skills header">Skills</h3>
-            <div className="jumbotron">
+            <div className="jumbotron skills-width">
                 <table className="table">
                     <thead>
                     <tr>
