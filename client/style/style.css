@@ -1,5 +1,6 @@
-.navbar {
-    margin-bottom: 0px;
+body {
+    color: rgb(93, 93, 93);
+    font-family: CircularStd, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 img {
@@ -117,6 +118,7 @@ a.btn-primary:focus {
 .navbar {
     opacity: 0.94;
     transition: all 0.5s ease;
+    margin-bottom: 0px;
 }
 
 .navScroll {
