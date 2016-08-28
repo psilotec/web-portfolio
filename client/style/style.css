@@ -3,7 +3,7 @@
 }
 
 img {
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 a {
@@ -53,12 +53,13 @@ a.btn-primary:focus {
     padding: 2vh 0;
 }
 
-/* Experience component */
-.experience {
-    max-width: 55vw;
+.filters {
+    margin-bottom: 20px;
+    max-width:60vw;
 }
 
-.experience.header {
+/* Skills component */
+.skills.header {
     text-align: center;
 }
 
@@ -67,15 +68,26 @@ a.btn-primary:focus {
     width: 55vw;
 }
 
-.skills.header {
+/* Skills jumbotron */
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+/* Experience component */
+.experience.header {
     text-align: center;
 }
 
+.experience {
+    max-width: 55vw;
+}
+
+/* Education component */
 .education.header {
     text-align: center;
 }
 
-/* Education component */
 .education {
     max-width: 55vw;
 }
@@ -86,12 +98,28 @@ a.btn-primary:focus {
     padding: 5vh 0;
 }
 
-.filters {
-    margin-bottom: 20px;
-    max-width:60vw;
+.email {
+    height: 50px;
+    width:60px;
 }
 
-.jumbotron {
-    padding-top: 10px;
-    padding-bottom: 0px;
+
+.blurred {
+    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
+
+.banner {
+    background-size: cover;
+    transition: 0.5s ease all;
+}
+
+.navbar {
+    opacity: 0.94;
+    transition: all 0.5s ease;
+}
+
+.navScroll {
+    opacity: 1;
+    transition: all 0.5s ease;
 }

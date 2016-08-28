@@ -7,7 +7,7 @@ import { IndexLink, Link } from 'react-router';
 //Nav component
 export const Nav = () => {
     return (
-        <nav className="navbar navbar-default navbar-static-top">
+        <nav className="navbar navbar-default navbar-fixed-top">
             <div className="container-fluid">
                 <ul className="nav nav-pills nav-justified">
                     <li className="navbar-text" role="presentation"><IndexLink to="/" activeClassName="active">Home</IndexLink></li>

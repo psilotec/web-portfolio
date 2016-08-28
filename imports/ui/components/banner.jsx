@@ -7,7 +7,7 @@ import React from 'react';
 export const Banner = () => {
     return (
         <div>
-            <img src="http://www.dawsonstreeservice.com/wp-content/themes/dawsonstree/images/home_banner3.jpg" />
+            <img className ="banner" src="https://s3.amazonaws.com/sdevito-web-portfolio/20160827_115750.jpg" />
         </div>
     );
 };

@@ -24,4 +24,23 @@ Meteor.startup( () => {
         </Router>,
         document.querySelector( '.render-target' )
     );
-});
+},
+
+//Nav and Banner blur onscroll effect
+window.onscroll = function(e) {
+    var banner = document.getElementsByClassName("banner")[0],
+        nav = document.getElementsByClassName("navbar")[0],
+        range = 70,
+        scrollTop = document.body.scrollTop;
+
+    if (scrollTop > range) {
+        banner.classList.add("blurred");
+        nav.classList.add("navScroll");
+    }
+    else {
+        banner.classList.remove("blurred");
+        nav.classList.remove("navScroll");
+    }
+}
+
+);
