@@ -32,6 +32,7 @@ Meteor.startup( () => {
         var banner = document.getElementsByClassName("banner")[0],
             nav = document.getElementsByClassName("navbar")[0],
             resume = document.getElementsByClassName("resume")[0],
+            contact = document.getElementsByClassName("contact")[0],
             sky = document.getElementsByClassName("sky")[0],
             range = 50,
             scrollTop = document.body.scrollTop;
@@ -45,10 +46,10 @@ Meteor.startup( () => {
             sky.classList.remove("skySunny");
             banner.classList.remove("blurred");
             nav.classList.remove("navScroll");
-        } else if ((scrollTop > range) && (resume != undefined)) {
+        } else if ((scrollTop > range) && ((contact != undefined) || (resume != undefined))) {
             banner.classList.add("blurred");
             nav.classList.add("navScroll");
-        } else if ((scrollTop < range) && (resume != undefined)) {
+        } else if ((scrollTop < range) && ((contact != undefined) || (resume != undefined))) {
             banner.classList.remove("blurred");
             nav.classList.remove("navScroll");
         }

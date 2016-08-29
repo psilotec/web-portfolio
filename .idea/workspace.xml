@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/style/style.css" afterPath="$PROJECT_DIR$/client/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/startup/client/routes.jsx" afterPath="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
     </list>
     <ignored path="web-portfolio.iws" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39886847">
-              <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+            <state vertical-scroll-proportion="-14.769231">
+              <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.4665757">
+              <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -178,8 +177,8 @@
         <option value="$PROJECT_DIR$/imports/ui/components/Intro.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/layouts/app.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/pages/About.jsx" />
-        <option value="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
         <option value="$PROJECT_DIR$/client/style/style.css" />
+        <option value="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
       </list>
     </option>
   </component>
@@ -802,18 +801,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
+    <entry file="file://$PROJECT_DIR$/client/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state vertical-scroll-proportion="-14.769231">
+          <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/style/style.css">
+    <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39886847">
-          <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.4665757">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding />
         </state>
       </provider>
