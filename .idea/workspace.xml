@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imports/ui/components/Intro.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/style/style.css" afterPath="$PROJECT_DIR$/client/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/startup/client/routes.jsx" afterPath="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/layouts/app.jsx" afterPath="$PROJECT_DIR$/imports/ui/layouts/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/pages/resume.jsx" afterPath="$PROJECT_DIR$/imports/ui/pages/resume.jsx" />
     </list>
     <ignored path="web-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.576923">
-              <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.39886847">
+              <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -48,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51296043">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -180,10 +176,10 @@
         <option value="$PROJECT_DIR$/imports/ui/components/Banner.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/pages/Resume.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/Intro.jsx" />
-        <option value="$PROJECT_DIR$/client/style/style.css" />
         <option value="$PROJECT_DIR$/imports/ui/layouts/app.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/pages/About.jsx" />
         <option value="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
+        <option value="$PROJECT_DIR$/client/style/style.css" />
       </list>
     </option>
   </component>
@@ -790,14 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.576923">
-          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/layouts/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -816,8 +804,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51296043">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39886847">
+          <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
           <folding />
         </state>
       </provider>
