@@ -25,8 +25,6 @@ class Resume extends Component {
         this.setState({
             visibleComponent: id
         });
-        //debug
-        console.log(id);
     }
     render() {
         return(

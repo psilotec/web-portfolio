@@ -15,34 +15,10 @@ a:hover {
     color: #000000;
 }
 
-a.btn-primary {
-    color: #fff;
-    background-color: #3d8b40;
-    border-color: #3d8b40;
-}
-
-a.btn-primary:active {
-    color: #fff;
-    background-color: #3d8b40;
-    border-color: #3d8b40;
-}
-
-a.btn-primary:hover {
-    color: #fff;
-    background-color: #3d8b40;
-    border-color: #3d8b40;
-}
-
-a.btn-primary:focus {
-    color: #fff;
-    background-color: #3d8b40;
-    border-color: #3d8b40;
-}
-
 /* About component */
 .about {
     text-align: center;
-    padding: 5vh 0;
+    padding: 8vh 0vw 0vh 0vw;
 }
 
 /* Resume component */
@@ -54,6 +30,7 @@ a.btn-primary:focus {
     padding: 2vh 0;
 }
 
+/* Resume filter size and positioning */
 .filters {
     margin-bottom: 20px;
     max-width:60vw;
@@ -64,6 +41,7 @@ a.btn-primary:focus {
     text-align: center;
 }
 
+/* Skills component size and positioning */
 .skills-width {
     text-align: center;
     width: 55vw;
@@ -80,6 +58,7 @@ a.btn-primary:focus {
     text-align: center;
 }
 
+/* Experience panel size */
 .experience {
     max-width: 55vw;
 }
@@ -89,6 +68,7 @@ a.btn-primary:focus {
     text-align: center;
 }
 
+/* Education panel size */
 .education {
     max-width: 55vw;
 }
@@ -99,12 +79,13 @@ a.btn-primary:focus {
     padding: 5vh 0;
 }
 
+/* Email icon size */
 .email {
     height: 50px;
     width:60px;
 }
 
-
+/* Blur effect for banner */
 .blurred {
     -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
     filter: blur(2px);
@@ -115,13 +96,66 @@ a.btn-primary:focus {
     transition: 0.5s ease all;
 }
 
+/* Navbar styling pre-scroll */
 .navbar {
     opacity: 0.94;
     transition: all 0.5s ease;
     margin-bottom: 0px;
 }
 
+/* Navbar styling post-scroll */
 .navScroll {
     opacity: 1;
     transition: all 0.5s ease;
 }
+
+.welcome {
+    height: 35vh;
+}
+
+.sky {
+    display: flex;
+    flex-direction: row;
+    background-color: #8be3e1;
+    height: 75vh;
+    max-height: 550px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.skySunny {
+    opacity: 1;
+    transition: all 1s ease;
+    border-bottom-color: #5d5d5d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.ground {
+    background-color: #95bb76;
+    height: 20vh;
+    min-height: 100px;
+}
+
+.me {
+    height: 63%;
+    width: 55%;
+    max-height: 300px;
+    max-width: 300px;
+    border: 10px solid #f8f8f8;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.description {
+    margin-top: 15%;
+    margin-left: 10%;
+    max-width: 550px;
+    text-align: left;
+}
+
+.sun {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
