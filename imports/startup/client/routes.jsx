@@ -12,6 +12,7 @@ import { App } from '../../ui/layouts/app.jsx';
 import About from '../../ui/pages/About.jsx';
 import Resume from '../../ui/pages/Resume.jsx';
 import { Contact } from '../../ui/pages/Contact.jsx';
+import { NotFound } from '../../ui/pages/NotFound.jsx';
 
 Meteor.startup( () => {
     render(
@@ -21,6 +22,7 @@ Meteor.startup( () => {
                 <Route path="/resume" component={ Resume } />
                 <Route path="/contact" component={ Contact } />
             </Route>
+            <Route path="*" component={ NotFound } />
         </Router>,
         document.querySelector( '.render-target' )
     );
