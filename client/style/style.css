@@ -3,9 +3,11 @@ body {
     font-family: CircularStd, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+/* Banner image */
 img {
     max-width: 100%;
 }
+
 
 a {
     color: #515151;
@@ -13,6 +15,39 @@ a {
 
 a:hover {
     color: #000000;
+}
+
+/* Button styling */
+.btn-primary {
+    color: #fff;
+    background-color: #799442;
+    border-color: #eeeeee;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8ca424;
+    border-color: #eeeeee;
+}
+
+.btn-primary.focus {
+    color: #fff;
+    background-color: #8ca424;
+    border-color: #eeeeee;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    outline-color: #eeeeee;
+    outline-style: none;
+    outline-width: thin;
+    background-color: #799442;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #8ca424;
+    border-color: #eeeeee;
 }
 
 /* About component */

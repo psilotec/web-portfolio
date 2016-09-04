@@ -9,7 +9,7 @@ export const Contact = ( ) => {
             <h2>Say hello!</h2>
             <p>scottadevito@gmail.com</p>
             <p>
-                <a href="https://www.linkedin.com/pub/scott-devito/91/239/34">
+                <a href="https://www.linkedin.com/pub/scott-devito/91/239/34" target="_blank">
                     <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_greytxt_80x15.png" width="90" height="16" />
                 </a>
             </p>

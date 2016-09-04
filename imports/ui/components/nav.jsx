@@ -11,7 +11,7 @@ export const Nav = () => {
             <div className="container-fluid">
                 <ul className="nav nav-pills nav-justified">
                     <li className="navbar-text" role="presentation"><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-                    <li className="navbar-text" role="presentation"><a href="https://github.com/psilotec">GitHub</a></li>
+                    <li className="navbar-text" role="presentation"><a href="https://github.com/psilotec" target="_blank">GitHub</a></li>
                     <li className="navbar-text" role="presentation"><Link to="/resume" activeClassName="active">Resume</Link></li>
                     <li className="navbar-text" role="presentation"><Link to="/contact" activeClassName="active">Contact</Link></li>
                 </ul>

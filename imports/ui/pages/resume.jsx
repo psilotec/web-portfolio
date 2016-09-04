@@ -46,6 +46,8 @@ class Resume extends Component {
                     </div>
                 </div>
 
+                <a className="btn btn-primary btn-sm" href="https://s3.amazonaws.com/sdevito-web-portfolio/ScottDeVitoResume.pdf" target="_blank" role="button">Download Resume</a>
+
                 <Full visible={this.state.visibleComponent === "full"} />
                 <Skills visible={this.state.visibleComponent === "skills"} />
                 <Experience visible={this.state.visibleComponent === "experience"} />

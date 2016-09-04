@@ -14,7 +14,6 @@ export const Experience = (props) => {
                 <div className="panel-body">
                     <h4 className="company">Bethpage Federal Credit Union</h4>
                     <h5 className="dates">February 2016 - Present</h5>
-                    <p>Responsible for incident resolution in a large production environment.</p>
                     <p>Technical lead on multiple, full-environment scope projects (core banking software upgrades/rollouts, network security initiatives).</p>
                     <p>Collaborate with team members, business units, vendors, and partner credit unions to ensure the smooth and reliable operation of banking systems.</p>
                 </div>
@@ -27,16 +26,7 @@ export const Experience = (props) => {
                 <div className="panel-body">
                     <h4 className="company">Bethpage Federal Credit Union</h4>
                     <h5 className="dates">December 2013 - February 2016</h5>
-                </div>
-            </div>
-
-            <div className="experience panel panel-default">
-                <div className="panel-heading">
-                    <h3 className="panel-title">Temp Jr. IT Analyst</h3>
-                </div>
-                <div className="panel-body">
-                    <h4 className="company">Bethpage Federal Credit Union</h4>
-                    <h5 className="dates">December 2013 - February 2015</h5>
+                    <p>Responsible for incident resolution in a production environment.</p>
                 </div>
             </div>
 
