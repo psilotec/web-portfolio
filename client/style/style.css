@@ -8,7 +8,7 @@ img {
     max-width: 100%;
 }
 
-
+/* Nav link styling */
 a {
     color: #515151;
 }
@@ -17,7 +17,43 @@ a:hover {
     color: #000000;
 }
 
-/* Button styling */
+/* Jumbotron styling */
+.jumbotron {
+    color: inherit;
+    background-color: #e5ffc9;
+}
+
+/* Table heading border styling */
+.table > thead > tr > th {
+    border-bottom: 2px solid #cee4b6;
+}
+
+/* Table row border styling */
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #cee4b6;
+    border-top-color: #cee4b6;
+}
+
+/* Default button styling */
+.btn-default:hover {
+    color: #555;
+    background-color: #e5ffc9;
+    border-color: #adadad;
+}
+
+.btn-default:focus {
+    color: #555;
+    background-color: #e5ffc9;
+    border-color: #adadad;
+}
+
+.btn-default:active {
+    color: #555;
+    background-color: #e5ffc9;
+    border-color: #adadad;
+}
+
+/* Primary button styling */
 .btn-primary {
     color: #fff;
     background-color: #799442;
@@ -26,7 +62,7 @@ a:hover {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #8ca424;
+    background-color: #b7d677;
     border-color: #eeeeee;
 }
 
@@ -41,7 +77,12 @@ a:hover {
     outline-color: #eeeeee;
     outline-style: none;
     outline-width: thin;
-    background-color: #799442;
+    background-color: #b7d677;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    border-color: #eeeeee;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
