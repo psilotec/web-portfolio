@@ -1,3 +1,12 @@
+$green-light: #e5ffc9;
+$green-dark: #799442;
+
+$button-text-dark: #555;
+$button-text-light: #fff;
+
+$primary-btn-border: #eeeeee;
+$default-btn-border: #adadad;
+
 body {
     color: rgb(93, 93, 93);
     font-family: CircularStd, "Helvetica Neue", Helvetica, sans-serif;
@@ -20,7 +29,7 @@ a:hover {
 /* Jumbotron styling */
 .jumbotron {
     color: inherit;
-    background-color: #e5ffc9;
+    background-color: $green-light;
 }
 
 /* Table heading border styling */
@@ -36,59 +45,59 @@ a:hover {
 
 /* Default button styling */
 .btn-default:hover {
-    color: #555;
-    background-color: #e5ffc9;
-    border-color: #adadad;
+    color: $button-text-dark;
+    background-color: $green-light;
+    border-color: $default-btn-border;
 }
 
 .btn-default:focus {
-    color: #555;
-    background-color: #e5ffc9;
-    border-color: #adadad;
+    color: $button-text-dark;
+    background-color: $green-light;
+    border-color: $default-btn-border;
 }
 
 .btn-default:active {
-    color: #555;
-    background-color: #e5ffc9;
-    border-color: #adadad;
+    color: $button-text-dark;
+    background-color: $green-light;
+    border-color: $default-btn-border;
 }
 
 /* Primary button styling */
 .btn-primary {
-    color: #fff;
-    background-color: #799442;
-    border-color: #eeeeee;
+    color: $button-text-light;
+    background-color: $green-dark;
+    border-color: $primary-btn-border;
 }
 
 .btn-primary:hover {
-    color: #fff;
+    color: $button-text-light;
     background-color: #b7d677;
-    border-color: #eeeeee;
+    border-color: $primary-btn-border;
 }
 
 .btn-primary.focus {
-    color: #fff;
+    color: $button-text-light;
     background-color: #8ca424;
-    border-color: #eeeeee;
+    border-color: $primary-btn-border;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
     outline: none;
-    outline-color: #eeeeee;
+    outline-color: $primary-btn-border;
     outline-style: none;
     outline-width: thin;
     background-color: #b7d677;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    color: #fff;
-    border-color: #eeeeee;
+    color: $button-text-light;
+    border-color: $primary-btn-border;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    color: #fff;
+    color: $button-text-light;
     background-color: #8ca424;
-    border-color: #eeeeee;
+    border-color: $primary-btn-border;
 }
 
 /* About component */
