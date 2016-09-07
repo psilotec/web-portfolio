@@ -1,5 +1,6 @@
-$green-light: #e5ffc9;
-$green-dark: #799442;
+$green-light: #b2c99f;
+$green-dark: #93b18f;
+$green-vlight: #efefef;
 
 $button-text-dark: #555;
 $button-text-light: #fff;
@@ -36,7 +37,7 @@ a:hover {
 /* Jumbotron styling */
 .jumbotron {
     color: inherit;
-    background-color: #efefef;
+    background-color: $green-vlight;
 }
 
 /* Table heading border styling */
@@ -52,11 +53,11 @@ a:hover {
 
 /* Panel heading styling */
 .panel-default > .panel-heading {
-  background-color: #efefef;
+  background-color: $green-light;
   border-color: #ddd;
 }
 
-/* Default button styling */
+/* Default button styling - Filter Button */
 .btn-default:hover {
     color: $button-text-dark;
     background-color: $green-light;
@@ -75,7 +76,7 @@ a:hover {
     border-color: $default-btn-border;
 }
 
-/* Primary button styling */
+/* Primary button styling - Resume Button */
 .btn-primary {
     color: $button-text-light;
     background-color: $green-dark;
@@ -84,13 +85,13 @@ a:hover {
 
 .btn-primary:hover {
     color: $button-text-light;
-    background-color: #b7d677;
+    background-color: $green-light;
     border-color: $primary-btn-border;
 }
 
 .btn-primary.focus {
     color: $button-text-light;
-    background-color: #8ca424;
+    background-color: $green-light;
     border-color: $primary-btn-border;
 }
 
@@ -99,7 +100,7 @@ a:hover {
     outline-color: $primary-btn-border;
     outline-style: none;
     outline-width: thin;
-    background-color: #b7d677;
+    background-color: $green-dark;
 }
 
 .btn-primary:focus, .btn-primary.focus {
