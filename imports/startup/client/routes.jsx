@@ -35,25 +35,25 @@ Meteor.startup( () => {
             nav = document.getElementsByClassName("navbar")[0],
             resume = document.getElementsByClassName("resume")[0],
             contact = document.getElementsByClassName("contact")[0],
-            sky = document.getElementsByClassName("sky")[0],
+            intro = document.getElementsByClassName("intro-container")[0],
             range = 50,
             scrollTop = document.body.scrollTop;
 
-        //sky is undefined if the About component isn't active
-        if ((scrollTop > range) && (sky != undefined)) {
-            sky.classList.add("skySunny");
+        //intro is undefined if the About component isn't active
+        if ((scrollTop > range) && (intro != undefined)) {
+            intro.classList.add("intro-container-scroll");
             banner.classList.add("blurred");
-            nav.classList.add("navScroll");
-        } else if ((scrollTop < range) && (sky != undefined)) {
-            sky.classList.remove("skySunny");
+            nav.classList.add("nav-scroll");
+        } else if ((scrollTop < range) && (intro != undefined)) {
+            intro.classList.remove("intro-container-scroll");
             banner.classList.remove("blurred");
-            nav.classList.remove("navScroll");
+            nav.classList.remove("nav-scroll");
         } else if ((scrollTop > range) && ((contact != undefined) || (resume != undefined))) {
             banner.classList.add("blurred");
-            nav.classList.add("navScroll");
+            nav.classList.add("nav-scroll");
         } else if ((scrollTop < range) && ((contact != undefined) || (resume != undefined))) {
             banner.classList.remove("blurred");
-            nav.classList.remove("navScroll");
+            nav.classList.remove("nav-scroll");
         }
     }
 );

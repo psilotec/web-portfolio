@@ -199,7 +199,7 @@ a:hover {
 }
 
 /* Navbar styling post-scroll */
-.navScroll {
+.nav-scroll {
   opacity: 1;
   transition: all 0.5s ease;
 }
@@ -208,28 +208,22 @@ a:hover {
   height: 30vh;
 }
 
-.sky {
+.intro-container {
   display: flex;
   flex-direction: row;
-  background-color: #8be3e1;
-  height: 75vh;
-  max-height: 550px;
+  background-color: #ffffff;
+  height: 95vh;
   opacity: 0;
   transition: all 1s ease;
+  justify-content: center;
 }
 
-.skySunny {
+.intro-container-scroll {
   opacity: 1;
-  transition: all 1s ease;
+  transition: all 1.5s ease;
   border-bottom-color: #5d5d5d;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-}
-
-.ground {
-  background-color: #95bb76;
-  height: 20vh;
-  min-height: 100px;
 }
 
 .me {
@@ -237,7 +231,7 @@ a:hover {
   width: 55%;
   max-height: 300px;
   max-width: 300px;
-  border: 10px solid #f8f8f8;
+  border: 8px solid #333;
   border-radius: 20px;
   margin-top: 10%;
 }
@@ -247,11 +241,6 @@ a:hover {
   margin-left: 10%;
   max-width: 550px;
   text-align: left;
-}
-
-.sun {
-  margin-top: 2%;
-  margin-left: 10%;
 }
 
 .notFound {
