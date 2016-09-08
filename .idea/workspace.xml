@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/style/style.scss" afterPath="$PROJECT_DIR$/client/style/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/components/Full.js" afterPath="$PROJECT_DIR$/imports/ui/components/Full.js" />
     </list>
     <ignored path="web-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,8 +134,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/style/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9051339">
-                  <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+                <state vertical-scroll-proportion="1.2321428">
+                  <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -975,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9051339">
-          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+        <state vertical-scroll-proportion="1.2321428">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding />
         </state>
       </provider>
