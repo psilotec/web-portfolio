@@ -7,63 +7,32 @@ export const Skills = (props) => {
     return(
         <div style={props.visible ? {display: 'block'} : {display: 'none'}}>
             <h3 className="skills header">Skills</h3>
-            <div className="jumbotron skills-width">
-                <table className="table">
-                    <thead>
-                    <tr>
-                        <th>Proficient or familiar with:</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>
-                            JavaScript (ES6)
-                        </td>
-                        <td>
-                            React JS
-                        </td>
-                        <td>
-                            HTML 5
-                        </td>
-                    </tr>
+            <div className="panel panel-default">
+                <div className="panel-body skills-panel">
+                    <p className="child-skill">JavaScript (ES6)</p>
 
-                    <tr>
-                        <td>
-                            CSS3/SCSS
-                        </td>
-                        <td>
-                            Meteor JS
-                        </td>
-                        <td>
-                            Git/GitHub
-                        </td>
-                    </tr>
+                    <p className="child-skill">React JS</p>
 
-                    <tr>
-                        <td>
-                            NPM
-                        </td>
-                        <td>
-                            SQL/NoSQL/GraphQL
-                        </td>
-                        <td>
-                            Agile Development
-                        </td>
-                    </tr>
+                    <p className="child-skill">HTML 5</p>
 
-                    <tr>
-                        <td>
-                            Testing solutions
-                        </td>
-                        <td>
-                            Java
-                        </td>
-                        <td></td>
-                    </tr>
-                    </tbody>
-                </table>
+                    <p className="child-skill">CSS3/SCSS</p>
+
+                    <p className="child-skill">Meteor JS</p>
+
+                    <p className="child-skill">Git/GitHub</p>
+
+                    <p className="child-skill">NPM</p>
+
+                    <p className="child-skill">SQL/NoSQL</p>
+
+                    <p className="child-skill">GraphQL</p>
+
+                    <p className="child-skill">Agile Development</p>
+
+                    <p className="child-skill"> Testing solutions</p>
+
+                    <p className="child-skill">Java</p>
+                </div>
             </div>
         </div>
     );

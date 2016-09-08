@@ -10,7 +10,7 @@ import { Education } from './Education';
 export const Full = (props) => {
     return(
         <div className ="full" style={props.visible ? {display: 'block'} : {display: 'none'}}>
-            <div className="skills-width">
+            <div className="skills-container">
                 <Skills visible="true" />
             </div>
             <Experience visible="true" />

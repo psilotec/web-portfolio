@@ -10,45 +10,26 @@ $default-btn-border: #adadad;
 
 $nav-a-text: #515151;
 
-$table-border-color: #cccccc;
-
 body {
-    color: rgb(93, 93, 93);
-    font-family: CircularStd, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(93, 93, 93);
+  font-family: CircularStd, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* Banner image */
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* Nav link styling */
 a {
-    color: $nav-a-text;
+  color: $nav-a-text;
 }
 a:hover, a:focus {
-    color: $nav-a-text;
+  color: $nav-a-text;
 }
 
 a:hover {
-    color: #000000;
-}
-
-/* Jumbotron styling */
-.jumbotron {
-    color: inherit;
-    background-color: $green-vlight;
-}
-
-/* Table heading border styling */
-.table > thead > tr > th {
-    border-bottom: 2px solid $table-border-color;
-}
-
-/* Table row border styling */
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-    border-top: 1px solid $table-border-color;
-    border-top-color: $table-border-color;
+  color: #000000;
 }
 
 /* Panel heading styling */
@@ -59,205 +40,222 @@ a:hover {
 
 /* Default button styling - Filter Button */
 .btn-default:hover {
-    color: $button-text-dark;
-    background-color: $green-light;
-    border-color: $default-btn-border;
+  color: $button-text-dark;
+  background-color: $green-light;
+  border-color: $default-btn-border;
 }
 
 .btn-default:focus {
-    color: $button-text-dark;
-    background-color: $green-light;
-    border-color: $default-btn-border;
+  color: $button-text-dark;
+  background-color: $green-light;
+  border-color: $default-btn-border;
 }
 
 .btn-default:active {
-    color: $button-text-dark;
-    background-color: $green-light;
-    border-color: $default-btn-border;
+  color: $button-text-dark;
+  background-color: $green-light;
+  border-color: $default-btn-border;
 }
 
 /* Primary button styling - Resume Button */
 .btn-primary {
-    color: $button-text-light;
-    background-color: $green-dark;
-    border-color: $primary-btn-border;
+  color: $button-text-light;
+  background-color: $green-dark;
+  border-color: $primary-btn-border;
 }
 
 .btn-primary:hover {
-    color: $button-text-light;
-    background-color: $green-light;
-    border-color: $primary-btn-border;
+  color: $button-text-light;
+  background-color: $green-light;
+  border-color: $primary-btn-border;
 }
 
 .btn-primary.focus {
-    color: $button-text-light;
-    background-color: $green-light;
-    border-color: $primary-btn-border;
+  color: $button-text-light;
+  background-color: $green-light;
+  border-color: $primary-btn-border;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-    outline: none;
-    outline-color: $primary-btn-border;
-    outline-style: none;
-    outline-width: thin;
-    background-color: $green-dark;
+  outline: none;
+  outline-color: $primary-btn-border;
+  outline-style: none;
+  outline-width: thin;
+  background-color: $green-dark;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    color: $button-text-light;
-    border-color: $primary-btn-border;
+  color: $button-text-light;
+  border-color: $primary-btn-border;
 }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    color: $button-text-light;
-    background-color: #8ca424;
-    border-color: $primary-btn-border;
+  color: $button-text-light;
+  background-color: #8ca424;
+  border-color: $primary-btn-border;
 }
 
 /* About component */
 .about {
-    text-align: center;
-    padding: 8vh 0vw 0vh 0vw;
+  text-align: center;
+  padding: 8vh 0vw 0vh 0vw;
 }
 
 /* Resume component */
 .resume {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh 0;
 }
 
 /* Resume filter size and positioning */
 .filters {
-    margin-bottom: 20px;
-    max-width:60vw;
+  margin-bottom: 20px;
+  max-width:60vw;
 }
 
 /* Skills component */
 .skills.header {
-    text-align: center;
+  text-align: center;
 }
 
-/* Skills component size and positioning */
-.skills-width {
-    text-align: center;
-    width: 55vw;
+/* Skills flexbox container */
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2vh 0;
+  width: 55vw;
+  justify-content: center;
 }
 
-/* Skills jumbotron */
-.jumbotron {
-    padding-top: 10px;
-    padding-bottom: 0px;
+/* Skills panel */
+.skills-panel {
+  background-color: $green-vlight;
+  border-color: #ddd;
+  width: 40vw;
+}
+
+/* Individual skill flex alignment */
+.child-skill {
+  text-align: center;
+  display: inline-block;
+  margin: 10px 0 0 2%;
+  flex-grow: 1;
+  height: 30px;
+  width: calc(86% * (1/4));
+  justify-content: center;
 }
 
 /* Experience component */
 .experience.header {
-    text-align: center;
+  text-align: center;
 }
 
 /* Experience panel size */
 .experience {
-    max-width: 55vw;
+  max-width: 55vw;
 }
 
 /* Education component */
 .education.header {
-    text-align: center;
+  text-align: center;
 }
 
 /* Education panel size */
 .education {
-    max-width: 55vw;
+  max-width: 55vw;
 }
 
 /* Contact component */
 .contact {
-    text-align: center;
-    padding: 5vh 0;
+  text-align: center;
+  padding: 5vh 0;
 }
 
 /* Email icon size */
 .email {
-    height: 50px;
-    width:60px;
+  height: 50px;
+  width:60px;
 }
 
 /* Blur effect for banner */
 .blurred {
-    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
-    filter: blur(2px);
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 
 .banner {
-    background-size: cover;
-    transition: 0.5s ease all;
+  background-size: cover;
+  transition: 0.5s ease all;
 }
 
 /* Navbar styling pre-scroll */
 .navbar {
-    opacity: 0.94;
-    transition: all 0.5s ease;
-    margin-bottom: 0px;
+  opacity: 0.94;
+  transition: all 0.5s ease;
+  margin-bottom: 0px;
 }
 
 /* Navbar styling post-scroll */
 .navScroll {
-    opacity: 1;
-    transition: all 0.5s ease;
+  opacity: 1;
+  transition: all 0.5s ease;
 }
 
 .welcome {
-    height: 30vh;
+  height: 30vh;
 }
 
 .sky {
-    display: flex;
-    flex-direction: row;
-    background-color: #8be3e1;
-    height: 75vh;
-    max-height: 550px;
-    opacity: 0;
-    transition: all 1s ease;
+  display: flex;
+  flex-direction: row;
+  background-color: #8be3e1;
+  height: 75vh;
+  max-height: 550px;
+  opacity: 0;
+  transition: all 1s ease;
 }
 
 .skySunny {
-    opacity: 1;
-    transition: all 1s ease;
-    border-bottom-color: #5d5d5d;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+  opacity: 1;
+  transition: all 1s ease;
+  border-bottom-color: #5d5d5d;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .ground {
-    background-color: #95bb76;
-    height: 20vh;
-    min-height: 100px;
+  background-color: #95bb76;
+  height: 20vh;
+  min-height: 100px;
 }
 
 .me {
-    height: 63%;
-    width: 55%;
-    max-height: 300px;
-    max-width: 300px;
-    border: 10px solid #f8f8f8;
-    border-radius: 20px;
-    margin-top: 10%;
+  height: 63%;
+  width: 55%;
+  max-height: 300px;
+  max-width: 300px;
+  border: 10px solid #f8f8f8;
+  border-radius: 20px;
+  margin-top: 10%;
 }
 
 .description {
-    margin-top: 15%;
-    margin-left: 10%;
-    max-width: 550px;
-    text-align: left;
+  margin-top: 15%;
+  margin-left: 10%;
+  max-width: 550px;
+  text-align: left;
 }
 
 .sun {
-    margin-top: 2%;
-    margin-left: 10%;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 
 .notFound {
-    text-align: center;
+  text-align: center;
 }
+
