@@ -5,8 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //Component imports
-import { Nav } from '../components/Nav.jsx';
-import { Banner } from '../components/Banner.jsx';
+import { Nav } from '../components/Nav';
+import { Banner } from '../components/Banner';
 
 //Main App component
 export const App = ( { children } ) => {
@@ -18,4 +18,3 @@ export const App = ( { children } ) => {
         </div>
     );
 };
-

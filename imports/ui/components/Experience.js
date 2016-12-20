@@ -25,7 +25,7 @@ export const Experience = (props) => {
                 <div className="panel-body">
                     <h4 className="company">Bethpage Federal Credit Union</h4>
                     <h5 className="dates">December 2013 - February 2016</h5>
-                    <p>Systems troubleshooting and administration.  Incident resolution in a production environment.</p>
+                    <p>Systems troubleshooting and administration. Incident resolution in a production environment.</p>
                 </div>
             </div>
 
@@ -42,6 +42,3 @@ export const Experience = (props) => {
         </div>
     );
 };
-
-
-

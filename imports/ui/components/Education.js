@@ -21,4 +21,3 @@ export const Education = (props) => {
         </div>
     );
 };
-

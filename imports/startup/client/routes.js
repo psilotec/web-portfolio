@@ -6,13 +6,13 @@ import { render } from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 //Component imports
-import { App } from '../../ui/layouts/app.jsx';
+import { App } from '../../ui/layouts/app';
 
 //Page component imports
-import About from '../../ui/pages/About.jsx';
-import Resume from '../../ui/pages/Resume.jsx';
-import { Contact } from '../../ui/pages/Contact.jsx';
-import { NotFound } from '../../ui/pages/NotFound.jsx';
+import About from '../../ui/pages/About';
+import Resume from '../../ui/pages/Resume';
+import { Contact } from '../../ui/pages/Contact';
+import { NotFound } from '../../ui/pages/NotFound';
 
 Meteor.startup( () => {
     render(

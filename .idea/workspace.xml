@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/style/style.scss" afterPath="$PROJECT_DIR$/client/style/style.scss" />
-    </list>
+    <list default="true" id="31a68f81-7525-49a1-9a95-26bd7438f3ce" name="Default" comment="" />
     <ignored path="web-portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,10 +43,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Resume.jsx" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Resume.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/imports/ui/pages/Resume.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6778976">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
@@ -107,11 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Intro.jsx" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Intro.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/imports/ui/components/Intro.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.25202155">
+                  <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -215,10 +213,10 @@
         <option value="$PROJECT_DIR$/client/style/style.css" />
         <option value="$PROJECT_DIR$/imports/ui/components/Full.js" />
         <option value="$PROJECT_DIR$/imports/ui/components/Skills.jsx" />
-        <option value="$PROJECT_DIR$/imports/ui/components/Intro.jsx" />
         <option value="$PROJECT_DIR$/imports/startup/client/routes.jsx" />
         <option value="$PROJECT_DIR$/imports/ui/components/Experience.jsx" />
         <option value="$PROJECT_DIR$/client/style/style.scss" />
+        <option value="$PROJECT_DIR$/imports/ui/components/Intro.jsx" />
       </list>
     </option>
   </component>
@@ -451,7 +449,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../markbin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
@@ -950,16 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/components/Intro.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imports/startup/client/routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -976,9 +964,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81709146">
+          <caret line="225" column="27" selection-start-line="225" selection-start-column="27" selection-end-line="225" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/pages/Resume.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6778976">
+        <state vertical-scroll-proportion="0.0">
           <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -986,11 +982,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/style/style.scss">
+    <entry file="file://$PROJECT_DIR$/imports/ui/components/Intro.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81709146">
-          <caret line="225" column="27" selection-start-line="225" selection-start-column="27" selection-end-line="225" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.25202155">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
