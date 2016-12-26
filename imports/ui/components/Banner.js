@@ -7,7 +7,7 @@ import React from 'react';
 export const Banner = () => {
     return (
         <div>
-            <img className ="banner" src="https://s3.amazonaws.com/sdevito-web-portfolio/20160827_115750.jpg" />
+            <img className ="banner" src="https://s3.amazonaws.com/sdevito-web-portfolio/port-banner.png" />
         </div>
     );
 };
