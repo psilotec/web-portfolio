@@ -174,10 +174,28 @@ a:hover {
   padding: 5vh 0;
 }
 
-/* Email icon size */
+/* Contact component conent sizes and spacing */
 .email {
   height: 50px;
   width:60px;
+}
+
+.email-address {
+  margin-right: 25px;
+}
+
+.email-logo {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Blur effect for banner */
