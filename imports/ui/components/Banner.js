@@ -6,7 +6,7 @@ import React from 'react';
 //Banner component
 export const Banner = () => {
     return (
-        <div>
+        <div className = "banner-container">
             <img className ="banner" src="https://s3.amazonaws.com/sdevito-web-portfolio/port-banner.png" />
         </div>
     );

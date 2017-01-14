@@ -198,7 +198,7 @@ a:hover {
   align-items: center;
 }
 
-/* Blur effect for banner */
+/* Banner styles, effects, and align*/
 .blurred {
   -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   filter: blur(2px);
@@ -208,6 +208,12 @@ a:hover {
   background-size: cover;
   transition: 0.5s ease all;
 }
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Navbar styling pre-scroll */
 .navbar {
