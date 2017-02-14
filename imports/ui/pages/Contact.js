@@ -6,12 +6,11 @@ import React from 'react';
 export const Contact = ( ) => {
     return(
         <div className="contact">
-            
             <div className="contact-container">
 
                 <p>
-                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=scottadevito@gmail.com">
-                        <img className="email" src="https://s3.amazonaws.com/sdevito-web-portfolio/gmailIcon.png" />
+                    <a href="mailto:scottadevito@gmail.com">
+                        <div className="btn3"><h5>Email</h5></div>
                     </a>
                 </p>
                 
@@ -19,14 +18,11 @@ export const Contact = ( ) => {
 
                 <p>
                     <a href="https://www.linkedin.com/pub/scott-devito/91/239/34" target="_blank">
-                        <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_greytxt_80x15.png" width="90" height="16" />
+                        <div className="btn3"><h5>LinkedIn</h5></div>
                     </a>
                 </p>
 
             </div>
-            
-            <h4 className="email-address"><a href="mailto:scottadevito@gmail.com">scottadevito@gmail.com</a></h4>
-
         </div>
     );
 };

@@ -198,6 +198,51 @@ a:hover {
   align-items: center;
 }
 
+/* Contact buttons */
+.btn3, .btn3:link, .btn3:visited {
+  color: #333;
+  font-size: .8em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  min-width: 100px;
+  max-width: 60%;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid transparent;
+  transition: all .2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+  &:after, &:before {
+    content: "";
+    position: absolute;
+    left: - 1em;
+    top: -2px;
+    height: 3.3em;
+    width: 0;
+    border: 1px solid #97b494;
+    transition: inherit;
+  }
+
+  &:after {
+    left: auto;
+    right: -1em;
+  }
+
+  &:hover {
+    border-color: #97b494;
+    transition: border-color .2s .2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+    
+    &:after, &:before {
+      right: -2px;      
+      transition: all .2s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+    }
+    
+    &:before {
+      left: -2px;
+      right: auto;
+    }
+  }
+}
+
 /* Banner styles, effects, and align*/
 .blurred {
   -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
@@ -228,6 +273,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 
+/* Home page styling */
 .welcome {
   height: 20vh;
 }
@@ -267,7 +313,10 @@ a:hover {
   text-align: left;
 }
 
+
+/* 404 styling */
 .notFound {
   text-align: center;
 }
+
 
