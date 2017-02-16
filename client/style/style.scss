@@ -30,6 +30,7 @@ a:hover, a:focus {
 
 a:hover {
   color: #000000;
+  text-decoration: none;
 }
 
 /* Panel heading styling */
@@ -199,7 +200,7 @@ a:hover {
 }
 
 /* Contact buttons */
-.btn3, .btn3:link, .btn3:visited {
+.contact-btn, .contact-btn:link, .contact-btn:visited {
   color: #333;
   font-size: .8em;
   letter-spacing: .1em;
